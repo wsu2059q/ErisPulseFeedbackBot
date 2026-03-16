@@ -2,9 +2,9 @@
 # 本文件由 SDK 自动创建，您可随意修改
 import asyncio
 from ErisPulse import sdk
-from .bot import FeedbackBot
-from .builder import FeedbackBuilder
-from .commands import FeedbackCommands
+from bot import FeedbackBot
+from builder import FeedbackBuilder
+from commands import FeedbackCommands
 
 
 async def main():
